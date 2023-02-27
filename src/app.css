@@ -1,0 +1,16 @@
+.home-navigator {
+  display: flex;
+}
+
+.home-navigator a {
+  text-decoration: none;
+  color: var(--g);
+  font-family: var(--h);
+  font-weight: 600;
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.home-navigator a:hover {
+  color: var(--w);
+}

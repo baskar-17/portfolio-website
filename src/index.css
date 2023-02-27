@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Open+Sans:wght@400;500;600;700&family=Roboto+Mono:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --0: #111010;
+  --f: #ffffff;
+  --g: #737373;
+  --h: "Kaisei Decol", serif;
+  --p: "Open Sans", sans-serif;
+  --n: "Roboto Mono", monospace;
+}
+
+body {
+  font-family: var(--p);
+  background: var(--0);
+  color: var(--f);
+}
