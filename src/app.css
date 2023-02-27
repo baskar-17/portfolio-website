@@ -1,7 +1,7 @@
 .container {
   display: flex;
   flex-direction: column;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .logo {
@@ -29,4 +29,23 @@
   background-color: var(--f-dull);
   color: var(--f) !important;
   border-radius: 6px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    margin: 3rem 0;
+  }
+
+  .home-navigator {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+  }
+
+  .logo {
+    padding: 1rem 0;
+  }
 }
