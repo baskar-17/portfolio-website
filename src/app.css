@@ -1,8 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+}
+
+.logo {
+  padding: 8px 0;
+}
+
 .home-navigator {
   display: flex;
 }
 
-.home-navigator a {
+.home-navigator .nav-link {
   text-decoration: none;
   color: var(--g);
   font-family: var(--h);
@@ -11,6 +21,12 @@
   padding: 5px 10px;
 }
 
-.home-navigator a:hover {
-  color: var(--w);
+.home-navigator .nav-link:hover {
+  color: var(--f);
+}
+
+.active {
+  background-color: var(--f-dull);
+  color: var(--f) !important;
+  border-radius: 6px;
 }

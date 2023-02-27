@@ -16,10 +16,18 @@ function App() {
         <img src={logo} alt="logo baskar portfolio" />
       </div>
       <div className="home-navigator">
-        <Link to={"/"}>home</Link>
-        <Link to={"/about"}>about</Link>
-        <Link to={"/blog"}>blog</Link>
-        <Link to={"/guestbook"}>guestbook</Link>
+        <Link className="nav-link active" to={"/"}>
+          home
+        </Link>
+        <Link className="nav-link" to={"/about"}>
+          about
+        </Link>
+        <Link className="nav-link" to={"/blog"}>
+          blog
+        </Link>
+        <Link className="nav-link" to={"/guestbook"}>
+          guestbook
+        </Link>
       </div>
 
       <Routes>

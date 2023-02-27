@@ -5,7 +5,7 @@ import profile from "../../assets/baskar.png";
 
 function Home() {
   return (
-    <div className="home-container">
+    <div>
       <div className="home-content-container">
         <h1>Baskar</h1>
         <p>
