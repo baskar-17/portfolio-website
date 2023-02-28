@@ -11,6 +11,7 @@
   padding: 1.5rem 0;
   font-size: 15px;
   line-height: 24px;
+  max-width: 460px;
 }
 
 .home-profile-container {
@@ -37,8 +38,14 @@
   color: var(--g);
 }
 
-.home-stats p {
-  margin-bottom: 0.5rem;
+.home-stats .home-status-numbers {
+  margin-bottom: 0.8rem;
+}
+
+.home-status-numbers {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .home-profile-para {
@@ -46,6 +53,7 @@
   padding: 2rem 0;
   font-size: 15px;
   line-height: 24px;
+  max-width: 600px;
 }
 
 .home-footer-links {
@@ -60,4 +68,30 @@
   color: var(--g);
   text-decoration: none;
   margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .home-content-container {
+    padding: 0;
+    margin-left: 3rem;
+  }
+
+  .home-profile-container {
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .home-profile {
+    width: 6rem;
+    margin-bottom: 0;
+  }
+
+  .home-footer-links {
+    flex-direction: row;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
 }

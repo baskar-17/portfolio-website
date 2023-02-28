@@ -21,15 +21,20 @@ function Home() {
             <img src={profile} alt="Baskar Portfolio Profile" />
           </div>
           <div className="home-stats">
-            <p>
-              <FaLinkedinIn size={20} /> 6,873 tweets all time
-            </p>
-            <p>
-              <FaGithub size={20} /> 6,873 stars on this repo
-            </p>
-            <p>
-              <FaBroom size={20} /> 1,609,184 blog views all time
-            </p>
+            <div className="home-status-numbers">
+              <FaLinkedinIn size={20} />
+              <p>6,873 tweets all time</p>
+            </div>
+
+            <div className="home-status-numbers">
+              <FaGithub size={20} />
+              <p>6,873 tweets all time</p>
+            </div>
+
+            <div className="home-status-numbers">
+              <FaBroom size={20} />
+              <p>1,609,184 blog views all time</p>
+            </div>
           </div>
         </div>
 
@@ -41,11 +46,17 @@ function Home() {
         </p>
 
         <div className="home-footer-links">
-          <a href="/">
-            <FiArrowUpRight size={20} /> follow me on twitter
+          <a href="https://www.linkedin.com/in/baskar17/" target="_blank">
+            <div className="home-status-numbers">
+              <FiArrowUpRight size={20} />
+              <p>Connect with me on Linked In</p>
+            </div>
           </a>
-          <a href="/">
-            <FiArrowUpRight size={20} /> get email updates
+          <a href="mailto:baskars739@gmail.com" target="_blank">
+            <div className="home-status-numbers">
+              <FiArrowUpRight size={20} />
+              <p>get email updates</p>
+            </div>
           </a>
         </div>
       </div>

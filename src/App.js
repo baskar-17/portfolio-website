@@ -19,7 +19,7 @@ function App() {
 
   return (
     <div className="container">
-      <div>
+      <div className="navigator-container">
         <div className="logo">
           <img src={logo} alt="logo baskar portfolio" />
         </div>
