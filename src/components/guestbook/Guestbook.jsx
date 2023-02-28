@@ -7,7 +7,7 @@ function Guestbook() {
     <div className="guestbook-container">
       <h1>Guest Book</h1>
 
-      <a href="https://github.com/baskar-17" target="_blank">
+      <a href="https://github.com/baskar-17" target="_blank" rel="noreferrer">
         <div className="guestbook-social-btn">
           <FaGithub className="icon" />
           <p>Sign in with GitHub</p>

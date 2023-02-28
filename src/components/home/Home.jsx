@@ -46,13 +46,21 @@ function Home() {
         </p>
 
         <div className="home-footer-links">
-          <a href="https://www.linkedin.com/in/baskar17/" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/baskar17/"
+            rel="noreferrer"
+            target="_blank"
+          >
             <div className="home-status-numbers">
               <FiArrowUpRight size={20} />
               <p>Connect with me on Linked In</p>
             </div>
           </a>
-          <a href="mailto:baskars739@gmail.com" target="_blank">
+          <a
+            href="mailto:baskars739@gmail.com"
+            rel="noreferrer"
+            target="_blank"
+          >
             <div className="home-status-numbers">
               <FiArrowUpRight size={20} />
               <p>get email updates</p>

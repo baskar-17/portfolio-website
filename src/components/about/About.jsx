@@ -38,6 +38,7 @@ function About() {
           <a
             href="https://www.linkedin.com/in/baskar17/"
             target="_blank"
+            rel="noreferrer"
             className="about-social-btn"
           >
             <div className="about-social-btn-2">
@@ -49,6 +50,7 @@ function About() {
           <a
             href="https://github.com/baskar-17"
             target="_blank"
+            rel="noreferrer"
             className="about-social-btn"
           >
             <div className="about-social-btn-2">
@@ -60,6 +62,7 @@ function About() {
           <a
             href="https://www.youtube.com/channel/UCtmK8ilIh5mZjXG_HhY9Xxg"
             target="_blank"
+            rel="noreferrer"
             className="about-social-btn"
           >
             <div className="about-social-btn-2">
