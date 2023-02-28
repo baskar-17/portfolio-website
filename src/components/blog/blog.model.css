@@ -1,0 +1,40 @@
+.blog-container {
+  padding: 1.5rem 0.5rem;
+}
+
+.blog-container h1 {
+  font-family: var(--h);
+}
+
+.blog-list-container {
+  padding: 1rem 0;
+}
+
+.blog-list-container a {
+  text-decoration: none;
+}
+
+.blog-list {
+  padding-bottom: 20px;
+}
+
+.blog-list p {
+  color: var(--f2);
+}
+
+.blog-number {
+  font-family: var(--n);
+  font-size: 12px;
+  color: var(--g) !important;
+  margin-top: 2px;
+}
+
+@media (min-width: 768px) {
+  .blog-container {
+    padding: 0;
+    margin-left: 3rem;
+  }
+  .blog-list {
+    min-width: 600px;
+  }
+}

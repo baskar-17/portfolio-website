@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Open+Sans:wght@400;500;600;700&family=Roboto+Mono:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Decol:wght@400;500;700&family=Open+Sans:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Martian+Mono:wght@300;400;500;600&display=swap");
 
 * {
   margin: 0;
@@ -11,11 +12,11 @@
   --0: #111010;
   --f: #ffffff;
   --f2: #e5e5e5;
-  --g: #737373;
+  --g: #a3a3a3;
   --f-dull: #ffffff20;
   --h: "Kaisei Decol", serif;
   --p: "Open Sans", sans-serif;
-  --n: "Roboto Mono", monospace;
+  --n: "Martian Mono", monospace;
 }
 
 body {

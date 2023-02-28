@@ -1,0 +1,46 @@
+.guestbook-container {
+  padding: 1.5rem 0.5rem;
+}
+
+.guestbook-container h1 {
+  font-family: var(--h);
+}
+
+.guestbook-social-btn {
+  padding: 12px;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  border: 1px solid #333333;
+  background-color: #000;
+  color: var(--f2);
+  border-radius: 6px;
+  gap: 12px;
+  font-size: 13px;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+.guestbook-container a {
+  text-decoration: none;
+}
+
+.guestbook-list-container p {
+  margin-bottom: 1rem;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.guestbook-list-container span {
+  color: var(--g);
+}
+
+@media (min-width: 768px) {
+  .guestbook-container {
+    padding: 0;
+    margin-left: 3rem;
+  }
+  .guestbook-list-container {
+    min-width: 600px;
+  }
+}
