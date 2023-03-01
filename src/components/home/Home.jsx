@@ -42,9 +42,9 @@ function Home() {
           Experienced UI/UX Designer with over 2 years of experience, blending
           technical skills and creative vision to deliver highquality designs
           that drive engagement and enhance user experiences. Proficient in
-          design tools, HTML, CSS, JavaScript and user-centered design
-          principles. Strong communication and collaboration skills with a
-          passion for staying current on design trends and technologies.
+          development tools, HTML, CSS, JavaScript and ReactJS. Strong
+          communication and collaboration skills with a passion for staying
+          current on design trends and technologies.
         </p>
 
         <div className="home-footer-links">
