@@ -8,31 +8,31 @@ function About() {
     <div>
       <div className="about-container">
         <h1>About Me</h1>
-        <p>Hey, I'm Lee. Most folks know me as leerob online.</p>
+        <p>Hey, I'm Baskar.</p>
         <p>
-          I'm currently the VP of Developer Experience at Vercel, where I lead
-          our Developer Relations and Documentation teams. I focus on educating
-          and growing the Vercel and Next.js communities.
+          UI/UX Designer with two years of professional experience in the field.
+          Based in Chennai, Tamil Nadu, A unique blend of frontend skills and
+          creative design thinking to every project he undertakes.
         </p>
         <hr className="about-hline" />
         <p>
-          I'm passionate about many creative pursuits, including music,
-          photography, videography, and of course, coding. This combination of
-          interests is what ultimately led me to my current role in building
-          developer communities.
+          I have a strong understanding of user experience principles and a keen
+          eye for aesthetics that enables me to create stunning designs that
+          resonate with users. I am a highly motivated and has a positive
+          attitude towards my work. I approaches every task with enthusiasm and
+          takes on new challenges with a hunger to learn and grow.
         </p>
         <p>
-          I love building for the web. From something as simple as a single HTML
-          file – all the way to large Next.js applications. The web is
-          incredible. Anyone can become a developer, writer, or creator – and no
-          one has to ask for permission. You can just build.
+          My passion for design and technology keeps him up-to-date with the
+          latest trends and techniques in the field, making me as a valuable
+          asset to any team.
         </p>
         <p>
-          Outside of Vercel, I angel invest in developer tools companies and
-          advise early-stage startups. I also do Developer Relations consulting
-          work, helping companies take their DevRel function from 0 to 1, or
-          provide guidance on growing communities, content creation, and
-          developer marketing.
+          If you're looking to learn more about UI/UX design, frontend
+          development, or just want to stay updated on the latest trends and
+          techniques in the industry, be sure to follow me on LinkedIn, GitHub,
+          and YouTube. So why wait? Follow me today and take your design and
+          development skills to the next level!
         </p>
         <div className="about-buttons">
           <a

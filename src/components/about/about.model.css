@@ -27,6 +27,10 @@
   flex-direction: column;
 }
 
+.about-buttons a {
+  text-decoration: none;
+}
+
 .about-social-btn p {
   padding: 0;
 }
