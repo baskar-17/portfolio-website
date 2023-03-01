@@ -39,10 +39,12 @@ function Home() {
         </div>
 
         <p className="home-profile-para">
-          I'm a Next.js contributor and help lead our open-source communities.
-          I'm passionate about frontend development and have created courses on
-          React, Next.js, and web development. I'm an advisor and investor in
-          early stage startups.
+          Experienced UI/UX Designer with over 2 years of experience, blending
+          technical skills and creative vision to deliver highquality designs
+          that drive engagement and enhance user experiences. Proficient in
+          design tools, HTML, CSS, JavaScript and user-centered design
+          principles. Strong communication and collaboration skills with a
+          passion for staying current on design trends and technologies.
         </p>
 
         <div className="home-footer-links">
